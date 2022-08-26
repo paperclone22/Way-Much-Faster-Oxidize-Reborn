@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gift_from_the_black_dragon",
+  "version": "${version}",
+
+  "name": "Gift From The Black Dragon",
+  "description": "Dragon Horde SMP S20 Misc Mod",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://www.dragons.plus/",
+    "sources": "https://github.com/DragonsPlusMinecraft/GiftFromTheBlackDragon"
+  },
+
+  "license": "WTFPL",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "plus.dragons.gift_from_the_black_dragon.Gift"
+    ]
+  },
+  "mixins": [
+    "gift_from_the_black_dragon.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
