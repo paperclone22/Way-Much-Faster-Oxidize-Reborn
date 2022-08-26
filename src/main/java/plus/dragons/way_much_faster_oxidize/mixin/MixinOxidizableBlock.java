@@ -1,4 +1,4 @@
-package plus.dragons.gift_from_the_black_dragon.mixin;
+package plus.dragons.way_much_faster_oxidize.mixin;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

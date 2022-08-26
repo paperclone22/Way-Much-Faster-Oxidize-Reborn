@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "gift_from_the_black_dragon",
+  "id": "way_much_faster_oxidize",
   "version": "${version}",
 
-  "name": "Gift From The Black Dragon",
-  "description": "Dragon Horde SMP S20 Misc Mod",
+  "name": "Way Much Faster Oxidize",
+  "description": "Just place copper next to water, or pour water on copper whatever.",
   "authors": [
-    "Me!"
+    "MarbleGateKeeper"
   ],
   "contact": {
     "homepage": "https://www.dragons.plus/",
-    "sources": "https://github.com/DragonsPlusMinecraft/GiftFromTheBlackDragon"
+    "sources": "https://github.com/DragonsPlusMinecraft/WayMuchFasterOxidize"
   },
 
   "license": "WTFPL",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "plus.dragons.gift_from_the_black_dragon.Gift"
+      "plus.dragons.way_much_faster_oxidize.Faster"
     ]
   },
   "mixins": [
-    "gift_from_the_black_dragon.mixins.json"
+    "way_much_faster_oxidize.mixins.json"
   ],
 
   "depends": {

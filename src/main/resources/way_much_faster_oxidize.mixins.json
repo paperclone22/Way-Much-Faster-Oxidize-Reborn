@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "plus.dragons.gift_from_the_black_dragon.mixin",
+  "package": "plus.dragons.way_much_faster_oxidize.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "MixinOxidizableBlock"
