@@ -22,8 +22,8 @@ public abstract class MixinOxidizableBlock extends Block implements Oxidizable {
 
     @Inject(method = "randomTick", at = @At("HEAD"), cancellable = true)
     public void injected(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
-        if(Utils.hardensOnAnySide(world, pos)){
-            world.setBlockState(pos,Utils.tryDegrade(this,state));
+        if (Utils.hardensOnAnySide(world, pos)) {
+            world.setBlockState(pos, Utils.tryDegrade(this,state));
             ci.cancel();
         }
     }
