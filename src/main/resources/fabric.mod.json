@@ -15,6 +15,7 @@
   },
 
   "license": "MIT",
+  "icon": "assets/wmfo/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
