@@ -7,19 +7,18 @@
   "description": "Just place copper next to water, or pour water on copper whatever.",
   "authors": [
     "Jayden215",
-    "MarbleGateKeeper (original creator)"
+    "MarbleGateKeeper (Original Creator)"
   ],
   "contact": {
-    "homepage": "",
     "sources": "https://github.com/jayden315/WayMuchFasterOxidizeReborn"
   },
 
   "license": "MIT",
-  "icon": "assets/wmfo/icon.png",
+  "icon": "assets/wmfo_reload/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "plus.dragons.wmfo.Faster"
+      "com.jayden215.wmfo_reload.Faster"
     ]
   },
   "mixins": [
