@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "way_much_faster_oxidize",
+  "id": "way_much_faster_oxidize_reborn",
   "version": "${version}",
 
-  "name": "Way Much Faster Oxidize",
+  "name": "Way Much Faster Oxidize Reborn",
   "description": "Just place copper next to water, or pour water on copper whatever.",
   "authors": [
-    "MarbleGateKeeper"
+    "Jayden215",
+    "MarbleGateKeeper (original creator)"
   ],
   "contact": {
-    "homepage": "https://www.dragons.plus/",
-    "sources": "https://github.com/DragonsPlusMinecraft/WayMuchFasterOxidize"
+    "homepage": "",
+    "sources": "https://github.com/jayden315/WayMuchFasterOxidizeReborn"
   },
 
-  "license": "WTFPL",
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -21,7 +22,7 @@
     ]
   },
   "mixins": [
-    "way_much_faster_oxidize.mixins.json"
+    "way_much_faster_oxidize_reborn.mixins.json"
   ],
 
   "depends": {

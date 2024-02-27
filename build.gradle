@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.3-SNAPSHOT'
+	id 'fabric-loom' version '1.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"way_much_faster_oxidize" {
+		"way_much_faster_oxidize_reborn" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
