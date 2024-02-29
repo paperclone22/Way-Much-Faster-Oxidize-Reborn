@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Way Much Faster Oxidize Reborn",
-  "description": "Just place copper next to water, or pour water on copper whatever.",
+  "description": "Just place copper next to water, or pour water on copper.",
   "authors": [
     "Jayden215",
     "MarbleGateKeeper (Original Creator)"
@@ -26,9 +26,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.15.7",
+    "fabricloader": "0.15.7",
     "fabric": "*",
-    "minecraft": "~1.20.1",
+    "minecraft": "*",
     "java": ">=17"
   }
 }
