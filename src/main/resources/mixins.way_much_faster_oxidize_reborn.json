@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "plus.dragons.wmfo.mixin",
+  "package": "com.jayden215.wmfo_reborn.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "mixins": [
@@ -13,5 +13,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "refmap": "mixins.way_much_faster_oxidize.refmap.json"
+  "refmap": "mixins.way_much_faster_oxidize_reborn.refmap.json"
 }
